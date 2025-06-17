@@ -9,4 +9,10 @@ namespace ProyectoI.Enum
     public enum EstadoPaquete { Pendiente, EnTransito, Entregado }
     public enum PrioridadPaquete { Baja, Media, Alta }
 
+    public enum EstadoVehiculo
+    {
+        Operativo,
+        Mantenimiento
+    }
+
 }
